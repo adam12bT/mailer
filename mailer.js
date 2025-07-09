@@ -58,3 +58,7 @@ async function sendEmailsFromContacts() {
 }
 
 sendEmailsFromContacts();
+setInterval(sendEmailsFromContacts, 5 * 60 * 1000);
+
+// Keep process alive
+console.log('Mailer service started, polling every 5 minutes.');
