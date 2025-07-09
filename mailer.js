@@ -1,6 +1,5 @@
 const admin = require('firebase-admin');
 const nodemailer = require('nodemailer');
-require('dotenv').config();
 
 
 // Load Firebase credentials from environment variable
