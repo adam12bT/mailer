@@ -1,0 +1,13 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Firebase + Nodemailer email script",
+  "main": "mailer.js",
+  "scripts": {
+    "start": "node mailer.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.1",
+    "nodemailer": "^6.9.4"
+  }
+}
